@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Constructor</title>
+  <link rel="stylesheet"  href="design.css">
+</head>
+<body style="background-image: url(constructorback.jpg);">
+  <div class="constructorbord">
+        <div class="constructorintro">
+          <h1>INTRODUCE YOURSELF!</h1>
+          <form action="pagegenerator1.php" method="post">
+          <div class="constructorintro2">
+                <div class="left">
+              <label for="greet">Greet:</label><br>
+              <input type="text" name="greet" placeholder="greetings"><br><br>
+              <label for="description">Description:</label><br>
+              <textarea name="description" rows="3" cols="50" placeholder="describe purpose"></textarea>
+            </div>
+          <div class="right">
+             <label for="instagram"><img src="instagram.png"></label>
+            <input type="url" name="instagram" placeholder="instagram link"><br><br>
+            <label class="facebook"><img src="facebook.png"></label>
+            <input type="url" name="facebook" placeholder="facebook link"><br><br>
+            <label for="twitter"><img src="twitter.png"></label>
+            <input type="url" name="twitter" placeholder="twitter link">
+          </div>  
+          </div>
+          <div class="themes">
+            <select name="themes">
+              <option >Choose the theme</option>
+              <option value="basic">Basic theme</option>
+              <option value="classical">Classical theme</option>
+              <option value="dreamy">Dreamy theme</option>
+            </select>
+          </div>
+         <div class="submittion">
+          <input type="submit" name="submittion" value="Create">
+        </div>
+            </form>
+          
+       </div>
+  </div>
+
+</body>
+</html>

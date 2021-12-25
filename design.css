@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;						
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: arial;
+}
+.bord{
+	width: 95%;
+	height: 95%;
+	margin: 15px auto 15px;
+	border: 2px white solid;
+	text-align: center;
+	border-radius: 100px;
+}
+.bord2{
+	width: 80%;
+	height: 80%;
+	margin: 30px auto 30px auto;
+	border: 1.5px white solid;
+	text-align: center;
+	border-radius: 100px;
+}
+.aboutproject{
+	background-color: #fef6e1;
+	width: 40%;
+	height: auto;
+	border-radius: 40px;
+	margin: 13% 390px 10px auto;
+	text-align: center;
+	color: #1b67e8;
+}
+.aboutproject h1{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.aboutproject p{
+	font-size: 24px;
+	padding-bottom: 40px;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 25px;
+}
+.next{
+	background-color: #fef6e1;
+	width: 150px;
+	height: 60px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 25px 390px 140px auto;
+	padding-top: 20px;
+	font-size: 33px;
+}
+.next a{
+	color: #1b67e8;
+}
+
+.themebord{
+	width: 95%;
+	height: 95%;
+	margin: 15px 20px 15px 20px;
+	border: 3px #fbdf9e solid;
+	text-align: center;
+	border-radius: 100px;
+	position: fixed;
+}
+.choosetheme{
+	background-color: #fefae3;
+	border-radius: 60px;
+	width: 65%;
+	height: auto;
+	text-align: center;
+	margin: 13% 240px 13% auto;
+	color: #4f5063;
+	padding-top: 30px;
+}
+.choosetheme img{
+	height: 180px;
+	width: auto;
+	padding: 40px 10px 50px 10px;
+	transition: transform 0.5s;
+	overflow: hidden;
+}
+.choosetheme :hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.basicbord{
+	width: 95%;
+	height: 95%;
+	margin: 15px 20px 15px 20px;
+	border: 1px #4f5063 solid;
+	text-align: center;
+	border-radius: 50%;
+	position: fixed;
+}
+.basiccircle{
+	width: 650px;
+	height: 650px;
+	border: 1px #4f5063 solid;
+	text-align: center;
+	border-radius: 50%;
+	margin: 2% 400px auto;
+}
+.basiccircle2{
+	width: 500px;
+	height: 500px;
+	border: 1px #4f5063 solid;
+	text-align: center;
+	border-radius: 50%;
+	margin: 10% 75px auto;
+}
+.basicintro{
+	background-color: white;
+	border-radius: 170px;
+	width: 120%;
+	height: auto;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 22%;
+	margin-left: -10%;
+	color: #4f5063;
+	animation: show 2s;
+}
+.basicintro h1{
+	font-size: 33px;
+}
+.basicintro p{
+	font-size: 22px;
+	padding: 20px 20% 30px 20%;
+}
+.basicintro img{
+	width: 30px;
+	height: auto;
+	padding: 5px 10px 20px 10px;
+	transition: transform 0.5s;
+	overflow: hidden;
+}
+.basicintro :hover img{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.start a{
+	font-size: 22px;
+	padding-top: 15px;
+	color: #4f5063;
+}
+.classicalbord{
+	width: 95%;
+	height: 95%;
+	margin: 15px 20px 15px 20px;
+	border: 1px #4f5063 solid;
+	text-align: center;
+	position: fixed;
+}
+.classicalintro{
+	background-color: white;
+	width: 45%;
+	height: auto;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 10%;
+	margin-left: 28%;
+	color: #4f5063;
+	animation: show 2s;
+}
+@keyframes show {
+	from {opacity: 0;} to {opacity: 1;}
+}
+.classicalintro h1{
+	font-size: 33px;
+}
+.classicalintro p{
+	font-size: 22px;
+	padding: 30px 35% 25px 35%;
+}
+.classicalintro img{
+	width: 30px;
+	height: auto;
+	padding: 20px 10px 10px 10px;
+	transition: transform 0.5s;
+	overflow: hidden;
+}
+.classicalintro :hover img{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.dreamybord{
+	width: 95%;
+	height: 95%;
+	margin: 15px 20px 15px 20px;
+	border: 2px #a9d5ac solid;
+	border-radius: 100px;
+	text-align: center;
+	position: fixed;
+	color: #4ca84a;
+}
+.dreamybord a{
+	color: #4ca84a;
+}
+.dreamyintro{
+	background-color: #fef6e1;
+	width: 45%;
+	height: auto;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 10%;
+	margin-left: 28%;
+	animation: show 2s;
+	border-radius: 70px;
+	border: 1px solid #717c8c;
+}
+@keyframes show {
+	from {opacity: 0;} to {opacity: 1;}
+}
+.dreamyintro h1{
+	font-size: 33px;
+}
+.dreamyintro p{
+	font-size: 22px;
+	padding: 30px 35% 10px 35%;
+	color: #717c8c;
+}
+.dreamyintro img{
+	width: 30px;
+	height: auto;
+	padding: 10px 10px 15px 10px;
+	transition: transform 0.5s;
+	overflow: hidden;
+}
+.dreamyintro :hover img{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.flower img{
+	height: 60px;
+	width: auto;
+	margin-top: -15px;
+}
+.constructorbord{
+	width: 60%;
+	height: 95%;
+	margin: 15px auto 15px 20%;
+	border: 2px white solid;
+	border-radius: 130px;
+	text-align: center;
+	position: fixed;
+	color: #58596a;
+}
+.constructorintro{
+	width: 90%;
+	padding-left: 5%;
+}
+.constructorintro h1{
+	padding-bottom: 40px;
+	padding-top: 11%;
+	font-weight: normal;
+}
+.constructorintro input, textarea{
+	width: 180px;
+	height: 40px;
+	background-color: #f7ebd7;
+	border-radius: 10px;
+	border: none;
+	padding-left:5px;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.constructorintro textarea{
+	height: 90px;
+}
+.constructorintro2{
+	width: 100%;
+	padding-top: 4%;
+}
+.left{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.right{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
+}
+.constructorintro2 label{
+	font-size: 22px;
+}
+.right img{
+	width: 35px;
+	height: auto;
+}
+.submittion{
+	margin-top: 40px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.themes select{
+	width: 165px;
+	height: 30px;
+	background-color: #f7ebd7;
+	font-size: 17px;
+	color: #58596a;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+}
+.load p{
+	color: #016fe7;
+	font-size: 33px;
+	text-align: center;
+	margin-top: 20%;
+}
